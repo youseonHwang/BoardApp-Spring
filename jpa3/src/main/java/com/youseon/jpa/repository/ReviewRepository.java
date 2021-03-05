@@ -1,0 +1,9 @@
+package com.youseon.jpa.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.youseon.jpa.entity.Review;
+
+public interface ReviewRepository extends JpaRepository<Review, Integer>, CustomReviewRepository {
+	
+}
